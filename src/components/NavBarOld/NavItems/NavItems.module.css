@@ -1,0 +1,31 @@
+.NavItems {
+    margin-right: 5%;
+
+}
+
+.NavItems li {
+
+    padding: 0 10px 0 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+
+.logoItem {
+    font-family: 'Permanent Marker', cursive;
+    float: left;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.logoItem a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+
+}
+

@@ -1,0 +1,26 @@
+.NavBar {
+    height: 65px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    z-index: 90;
+    background-color: #17252A;
+    box-sizing: border-box;
+}
+
+.NavBar nav {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

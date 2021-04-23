@@ -1,0 +1,80 @@
+.ThreadForm {
+    width: 80%;
+    margin: auto;
+}
+
+.mainTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 54px;
+    margin-top: 72px;
+}
+
+.mainTitle h1 {
+    margin: 0;
+}
+
+.postTitle {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.postTitle input[type=text] {
+    font-size: 28px;
+    border-radius: 12px;
+    border: none;
+    width: 60%;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.postTitle table {
+    width: 100%;
+}
+
+.firstcolumn{
+    width: 30%;
+}
+
+.postTitle select {
+    font-size: 28px;
+    border-radius: 12px;
+    border: none;
+    width: 60%;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.submitButton button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+}
+
+.Breadcrumb {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 8px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
+
+.Breadcrumb a {
+    text-decoration: none;
+    color: white;
+
+}

@@ -1,0 +1,18 @@
+.categories {
+    margin-top: 0;
+}
+
+.mainTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 12px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+    text-align: center;
+}
+
+.mainTitle h1 {
+    margin: 0;
+}

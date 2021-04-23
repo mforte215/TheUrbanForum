@@ -1,0 +1,42 @@
+.NewButton {
+    display: block;
+    width: 90%;
+    text-align: right;
+
+}
+
+.NewButton button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+}
+
+.background {
+    margin: auto;
+    height: 100%;
+    padding: 30px;
+
+
+}
+
+.ThreadList {
+    margin-top: 36px;
+    
+}
+
+.mainTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 12px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+}
+
+.mainTitle h1 {
+    margin: 0;
+}

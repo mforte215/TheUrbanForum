@@ -1,0 +1,65 @@
+.mainContent {
+    color: black;
+    background-color: white;
+    border-style: inset;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    font-size: xx-large;
+    padding: 15px;
+    margin-bottom: 5%;
+}
+
+.editor {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.Breadcrumb {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 8px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Breadcrumb a {
+    text-decoration: none;
+    color: white;
+}
+
+.threadHolder {
+   width: 80%;
+   margin: auto;
+   margin-top: 72px;
+   margin-bottom: 50px;
+}
+
+
+
+.addCommentBtn {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+
+}
+
+.mainTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.mainTitle h1 {
+    margin: 0;
+}

@@ -1,0 +1,42 @@
+.comment {
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    padding: 0 0 12px 12px;
+    
+}
+
+.commentBody {
+    margin-left: 36px;
+    padding: 0;
+}
+
+.user {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    padding-bottom: 0;
+}
+
+.controls {
+    display: block;
+    overflow: hidden;
+    width: 90%;
+}
+
+.controls button {
+    float: right;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: medium;
+}
+
+.commentLabel {
+    font-family: 'Permanent Marker', cursive;
+}

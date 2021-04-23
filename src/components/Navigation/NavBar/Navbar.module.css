@@ -1,0 +1,24 @@
+.NavbarContainer {
+    width: 100%;
+    height: 60px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+}
+
+.LogoSection {
+    display: flex;
+}
+
+.CenterLinks {
+    display: flex;
+    flex: 2;
+    height: 100%;
+    justify-content: center;
+}
+
+.RightLinks {
+    display: flex;  
+}
