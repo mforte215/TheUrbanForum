@@ -25,7 +25,7 @@ export const getFloors = () => {
     return dispatch => {
         dispatch(floorsLoadStart());
 
-        const url ='https://intense-bastion-18708.herokuapp.com/categories/'
+        const url ='http://localhost:8000/categories/'
         axios.get(url)
         .then(
             response => {   

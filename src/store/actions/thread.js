@@ -70,7 +70,7 @@ export const postThread = (input) => {
 
     return dispatch => {
         dispatch(threadPostStart());
-        const url = 'https://intense-bastion-18708.herokuapp.com/threads/'
+        const url = 'http://localhost:8000/threads/'
         const headers = {
             'Authorization': 'Bearer ' + input.token,
           }
@@ -107,7 +107,7 @@ export const updateThread = (input) => {
     console.log(input);
     return dispatch => {
         dispatch(threadEditStart());
-        const url = 'https://intense-bastion-18708.herokuapp.com/threads/' + input.thread + '/';
+        const url = 'http://localhost:8000/threads/' + input.thread + '/';
 
         let config = {
             headers: {
@@ -139,7 +139,7 @@ export const getThread = (threadId) => {
     return dispatch => {
         dispatch(threadLoadStart());
 
-        const url ='https://intense-bastion-18708.herokuapp.com/?thread_identifier=' + threadId;
+        const url ='http://localhost:8000/?thread_identifier=' + threadId;
         axios.get(url)
         .then(
             response => {

@@ -26,7 +26,7 @@ export const getFloor = (categoryName) => {
     return dispatch => {
         dispatch(floorLoadStart());
 
-        const url ='https://intense-bastion-18708.herokuapp.com/categories/?name=' + categoryName;
+        const url ='http://localhost:8000/categories/?name=' + categoryName;
         axios.get(url)
         .then(
             response => {
@@ -59,7 +59,7 @@ export const categoryLoadFail = (error) => {
 
 export const getCategory = (name) => {
     return dispatch => {
-        const url ='https://intense-bastion-18708.herokuapp.com/categories/?name=' + name;
+        const url ='http://localhost:8000/categories/?name=' + name;
 
         axios.get(url)
         .then(
@@ -102,7 +102,7 @@ export const threadDeleteSuccess = () => {
 export const deleteThread = (input) => {
     return dispatch => {
         dispatch(threadDeleteStart());
-        const url = 'https://intense-bastion-18708.herokuapp.com/threads/' + input.threadId + '/'
+        const url = 'http://localhost:8000/threads/' + input.threadId + '/'
         const headers = {
             'Authorization': 'Bearer ' + input.token,
           }

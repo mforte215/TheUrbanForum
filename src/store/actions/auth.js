@@ -73,7 +73,7 @@ export const signup = (data) => {
         params.append('email', data.email);
 
         
-        const url ='https://intense-bastion-18708.herokuapp.com/register/'
+        const url ='http://localhost:8000/register/'
         axios.post(url, params)
         .then(
             response => {
@@ -134,7 +134,7 @@ export const authenticate = (userid, password) => {
         }
 
 
-        const url ='https://intense-bastion-18708.herokuapp.com/o/token/'
+        const url ='http://localhost:8000/o/token/'
         axios.post(url, params, config)
         .then(
             response => {

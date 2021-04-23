@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 
-export const API_URL = "https://intense-bastion-18708.herokuapp.com/"
+export const API_URL = "http://localhost:8000/"
 

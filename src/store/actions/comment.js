@@ -67,7 +67,7 @@ export const commentPostFail = () => {
 export const getComments = (threadId) => {
     return dispatch => {
         dispatch(commentLoadStart());
-        const url = 'https://intense-bastion-18708.herokuapp.com/comments/';
+        const url = 'http://localhost:8000/comments/';
         const params = new URLSearchParams();
         params.append('forumThread', threadId)
 
@@ -99,7 +99,7 @@ export const getComments = (threadId) => {
 export const postComment = (input) => {
     return dispatch => {
         dispatch(commentPostStart());
-        const url = 'https://intense-bastion-18708.herokuapp.com/comments/'
+        const url = 'http://localhost:8000/comments/'
         const headers = {
             'Authorization': 'Bearer ' + input.token,
           }
@@ -135,7 +135,7 @@ export const deleteComment = (input) => {
     console.log('Deleting comment');
     return dispatch => {
         dispatch(commentDeleteStart());
-        const url = 'https://intense-bastion-18708.herokuapp.com/comments/' + input.commentId + '/'
+        const url = 'http://localhost:8000/comments/' + input.commentId + '/'
         const headers = {
             'Authorization': 'Bearer ' + input.token,
           }
